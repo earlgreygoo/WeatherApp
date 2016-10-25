@@ -17,7 +17,7 @@ var locationUrl = function(positionObject) {
 	
 	currentLat = positionObject.coords.latitude
 	currentLong = positionObject.coords.longitude
-	currentUrl = baseUrl + currentLat + "," + currentLong
+	currentUrl = baseUrl + currentLat + "," + currentLong + "?callback=?"
 
 	lu = currentUrl	
 
